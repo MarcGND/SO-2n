@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # 3 - Systemd
 ## 3.1 - Directortis imporatants
 ## 3.2 - systemctl i altres 
