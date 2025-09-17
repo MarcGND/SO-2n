@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "Creació entorn d'arrencada amb systemd L"
 ---
 
 # 3 - Systemd
