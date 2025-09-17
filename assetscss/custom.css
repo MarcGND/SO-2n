@@ -1,30 +1,33 @@
-/* Suaviza las líneas horizontales */
+/* Suavitza les línies horitzontals */
 hr {
   border: none;
   border-top: 1px solid #ccc;
   margin: 20px 0;
 }
 
-/* Títulos */
+/* Títols */
 h1, h2, h3 {
   margin-top: 20px;
   margin-bottom: 10px;
   color: #2c3e50;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Enlaces */
+/* Enllaços */
 a {
   color: #1a73e8;
   text-decoration: none;
   margin-bottom: 5px;
   display: inline-block;
   font-size: 1.05em;
+  transition: color 0.2s ease;
 }
 a:hover {
   text-decoration: underline;
+  color: #0b59d0;
 }
 
-/* Pie de página */
+/* Peu de pàgina */
 footer, .license {
   font-size: 0.85em;
   color: #666;
@@ -34,21 +37,33 @@ footer, .license {
   text-align: left;
 }
 
-/* Contenido */
+/* Cos del contingut */
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.3;
+  line-height: 1.6;
   padding: 0 15px;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
+/* Llistes */
 li {
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
-
-/* Responsividad básica */
+/* Responsivitat bàsica */
 @media (max-width: 600px) {
   body {
     padding: 0 10px;
   }
+}
+
+/* Caixa destacada per a l'autor */
+.autor-box {
+  background-color: #e3f2fd;
+  border-left: 4px solid #1a73e8;
+  padding: 10px 15px;
+  margin: 20px 0;
+  font-size: 0.95em;
+  color: #2c3e50;
 }
