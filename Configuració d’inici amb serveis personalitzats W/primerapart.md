@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Configuració d’inici amb serveis personalitzats W"
+title: "Creació entorn d’arrencada amb systemd L"
 ---
 
 ## Titol generic
