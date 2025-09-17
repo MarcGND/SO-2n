@@ -1,19 +1,23 @@
 ---
 layout: default
-title: "Curso de Machine Learning"
+title: "Curs de Sistemes Operatius"
 ---
 
-Este repositorio contiene el material del curso de Machine Learning desarrollado por Mireia Consarnau.
+Aquest repositori conté el material del curs **de Sistemes Operatius** desenvolupat per **Marc Sabaté**.
 
-- Índice y enlaces a las unidades del curso.
-- Recursos en formato PDF, vídeos, y Google Colab.
-- Código y ejemplos prácticos.
+- Índex i enllaços a les unitats del curs.
+- Recursos en format PDF, vídeos i Google Colab.
+- Codi i exemples pràctics.
+- Apunts i reflexions personals.
 
-## Licencia
+## Sobre l'autor
 
-El contenido está bajo licencia [Creative Commons BY-NC-SA 3.0 ES](LICENSE.md).
+**Marc Sabaté** estudiant de segon d'ASIX i entusiasta de la ciberseguretat.
 
-## Contenido del curso
+## Llicència
 
-### [Unidad 1. Fundamentos de la Inteligencia Artificial y el Aprendizaje Automático](unidad1/unidad1.md)  
+El contingut està sota llicència [Creative Commons BY-NC-SA 3.0ES.
 
+## Contingut del curs
+
+### [Unitat 1. Fonaments dels Sistems Operatius
