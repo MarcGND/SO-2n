@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Creació entorn d'arrencada amb systemd L"
+---
+
 # 3 - Systemd
 ## 3.1 - Directortis imporatants
 ## 3.2 - systemctl i altres 
