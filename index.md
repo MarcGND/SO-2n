@@ -16,8 +16,8 @@ Aquest repositori conté el material del curs **de Sistemes Operatius** desenvol
 
 ## Llicència
 
-El contingut està sota llicència [Creative Commons BY-NC-SA 3.0ES.
+El contingut està sota llicència [Creative Commons BY-NC-SA 3.0ES.]
 
 ## Contingut del curs
 
-### Nom del tema
+### Creació entorn d’arrencada amb systemd L
