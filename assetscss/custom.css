@@ -58,12 +58,3 @@ li {
   }
 }
 
-/* Caixa destacada per a l'autor */
-.autor-box {
-  background-color: #e3f2fd;
-  border-left: 4px solid #1a73e8;
-  padding: 10px 15px;
-  margin: 20px 0;
-  font-size: 0.95em;
-  color: #2c3e50;
-}
