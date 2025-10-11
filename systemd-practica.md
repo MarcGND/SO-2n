@@ -45,4 +45,4 @@ Finalment per comprovar si els logs s'han esborrat comprovarem si en la màquina
 
 ![Logs esborrats](https://github.com/user-attachments/assets/204f2d84-5a3a-465b-9e35-1d34c850f77d)
 
-[← Torna a l'índex](index.md)
+[← Torna a l'índex](/)
