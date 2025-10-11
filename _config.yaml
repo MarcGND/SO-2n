@@ -1,10 +1,7 @@
-theme: minima
-
-sass:
-  style: compressed
-
+title: "Curs de Sistemes Operatius"
+theme: jekyll-theme-cayman
 plugins:
-  - jekyll-seo-tag
-
-include:
-  - assets/css/custom.css
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
