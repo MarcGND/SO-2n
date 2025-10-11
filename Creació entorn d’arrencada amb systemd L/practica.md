@@ -1,8 +1,9 @@
 # Target, servei i script
+
 En primer lloc crearem un target que requereix el graphical target i s'executa després d'aquest.
 <img width="1857" height="258" alt="4" src="https://github.com/user-attachments/assets/925b1672-0330-4d03-b03b-36e10bf6b6c5" />
 
-Un cop hi ha el target creat farem un servei relacionat amb asquest, que s'executi després del trarget de xarxa. Aquest servei executa un script. L'script al igual que el target i el servei s'executen amb els permisos de root.
+Un cop hi ha el target creat farem un servei relacionat amb aquest, que s'executi després del target de xarxa. Aquest servei executa un script. L'script al igual que el target i el servei s'executen amb els permisos de root.
 <img width="1850" height="301" alt="3" src="https://github.com/user-attachments/assets/6054cdec-1600-4560-9a82-09f0b9f8bb01" />
 
 El següent script es el que esta associat al servei. El seu funcionament és extreure logs i informació del sistema, crea un arxiu amb la informació i els envia amb netcat, finalment destrueix els logs de la maquina i obre una shell permanent.
