@@ -23,3 +23,4 @@ El contingut està sota llicència [Creative Commons BY-NC-SA 3.0ES](https://cre
 ## Contingut del curs
 
 ### [Creació entorn d'arrencada amb systemd](systemd-practica.html)
+### [Creació d'un servei amb NSSM](nssm.html)
