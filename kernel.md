@@ -3,7 +3,7 @@ layout: default
 title: "Kernel"
 ---
 
-
+## Compilació i personalització del Kernel Linux
 
 
 
