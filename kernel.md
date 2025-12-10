@@ -87,9 +87,15 @@ En aquesta imatge s’ha executat la comanda update-grub després de modificar e
 
 <img width="1045" height="359" alt="24" src="https://github.com/user-attachments/assets/9acf5b19-fd2a-405c-a164-1bd6a960b556" />
 
+Un cop acabat fem instalem els paquets deb i reinciem el sistema, entrant amb el nou kernel.
 
+Per comprovar els canvis fets i que s'hagin aplicat podem executar les següents comandes:
 
+<img width="741" height="163" alt="25" src="https://github.com/user-attachments/assets/08035976-949d-493f-81c0-4c317ec2a6d5" />
 
+<img width="1103" height="244" alt="26" src="https://github.com/user-attachments/assets/18cd86d3-a091-4b87-ba15-7d5a17a9e65f" />
+
+Com es pot les configuracions s'han aplicat.
 
 
 [← Torna a l'índex](index.html)
