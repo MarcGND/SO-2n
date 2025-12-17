@@ -1,24 +1,106 @@
+---
+layout: default
+title: "VPN"
+---
+
+# Creació d'una VPN a Windows en un entorn client servidor
+
+A dins del servidor instal·lem els rols necessaris per poder enrutar i configurar una VPN.
+
 <img width="777" height="561" alt="1" src="https://github.com/user-attachments/assets/0d8fb979-cf57-4b5e-a431-94803acf9be1" />
+
+Un cop instal·lat anem a la configuració d'enrutament i acces remot. Allà damunt del servidor el configurem i habilitem.
+
 <img width="1025" height="436" alt="2" src="https://github.com/user-attachments/assets/6e6e518e-5952-4ae6-a820-e56df9e67a18" />
+
+En els seüents passos escollim la primera opció i les de VPN.
+
 <img width="517" height="502" alt="3" src="https://github.com/user-attachments/assets/3bccd167-27ee-4100-8500-3ae0dd41d540" />
+
 <img width="508" height="486" alt="4" src="https://github.com/user-attachments/assets/647de011-f01e-47a3-b84e-5cf180f6bccd" />
+
 <img width="587" height="518" alt="5" src="https://github.com/user-attachments/assets/7e639563-9e16-40fc-8afe-183c73cfe1ac" />
+
+En aquest cas em d'escollir l'adaptador on tenim la "xarxa externa" en aquest cas tinc la IP 10.10.1.1
+
 <img width="563" height="527" alt="6" src="https://github.com/user-attachments/assets/c1866b88-d02d-4af0-bce6-3d22ea95e917" />
+
+Les IPs que donarem seràn d'un rang que escollirem a continuació.
+
 <img width="522" height="483" alt="7" src="https://github.com/user-attachments/assets/edac6b2b-dd18-42f3-8a62-877371f901f8" />
+
 <img width="618" height="548" alt="8" src="https://github.com/user-attachments/assets/5320908b-87f6-43ab-9c85-b8d6d4747c08" />
+
+No volem enrutar amb RADIUS.
+
 <img width="514" height="499" alt="9" src="https://github.com/user-attachments/assets/a74cb43f-cff2-436b-81ba-615a054f9f36" />
+
+Confirmem les opcions.
+
 <img width="511" height="478" alt="10" src="https://github.com/user-attachments/assets/57196080-f8e9-4fc1-b938-fdcfcf774ca9" />
+
+## Client
+
+Ens dirigim a la configuració de xarxa i configurem a una nova connexió de xarxa.
+
 <img width="811" height="481" alt="11" src="https://github.com/user-attachments/assets/68f10f88-878f-4566-8f98-c2d267bb7b58" />
+
+Escollim l'area de treball.
+
 <img width="619" height="460" alt="12" src="https://github.com/user-attachments/assets/f1fb1a9b-df3b-45f6-a63a-bdfcfe8fb1c9" />
+
+Utilitzem la conexió (VPN).
+
 <img width="618" height="460" alt="13" src="https://github.com/user-attachments/assets/89a458a8-e840-4a34-a48a-cac4f47dce91" />
+
+I posem la IP que tenim al servidor
+
+<img width="739" height="520" alt="bip" src="https://github.com/user-attachments/assets/787ce533-5916-4dfe-8427-13c92e8d67a4" />
+
+Ens haurà creat un nou adaptador i desde la part de netplan (ncpa.cpl) configurem les propietats d'aquest adaptador VPN.
+
 <img width="435" height="528" alt="14" src="https://github.com/user-attachments/assets/1813fb88-17e2-4769-89fe-9618d4556d4a" />
+
+## Carpetes servidor
+
+Ara s'han de crear les carpetes per a cada usuari, en aquest cas n'he creat dos, per als usuaris, Brad i Keanu, dono permisos a cadascun de control total.
+
 <img width="845" height="566" alt="carpeta1" src="https://github.com/user-attachments/assets/7d0a4760-66eb-464c-910d-fd378f777b81" />
+
 <img width="889" height="581" alt="carpeta2" src="https://github.com/user-attachments/assets/826ca095-2dcb-4ab8-b10e-f1a5b5560135" />
+
+Creem els usuaris també.
+
 <img width="1023" height="639" alt="user1" src="https://github.com/user-attachments/assets/c37929fb-7d34-4f47-9139-d13a9ad8e082" />
+
 <img width="1023" height="619" alt="user2" src="https://github.com/user-attachments/assets/051ba2b4-30d2-4cdf-b78a-718c93497bc7" />
-<img width="414" height="215" alt="user3" src="https://github.com/user-attachments/assets/c2c6d266-8950-40c3-86ab-0575a49cd48e" />
-<img width="1177" height="633" alt="user4" src="https://github.com/user-attachments/assets/566622ef-504e-466a-afb8-d368fd34e150" />
-<img width="1318" height="693" alt="user5" src="https://github.com/user-attachments/assets/a72513f7-3269-4f53-912e-ff804a7a85a4" />
-<img width="1367" height="657" alt="user6" src="https://github.com/user-attachments/assets/6fef637e-5b74-4bde-81f7-1b250ce9693f" />
-<img width="1228" height="638" alt="user7" src="https://github.com/user-attachments/assets/d52fda18-bf4b-465a-88d8-724584521236" />
+
+## Client
+
+Ara que ja tenim tot conectem la VPN i comprovem que la IP es l'adequada.
+
+Utilitzem el login de Keanu per entrar amb la VPN.
+
+<img width="1027" height="779" alt="user8" src="https://github.com/user-attachments/assets/20a6fa74-7731-425b-a7df-b9481a8cb1f6" />
+
 <img width="1244" height="650" alt="VPN" src="https://github.com/user-attachments/assets/7d1d941f-0f91-4637-9422-d118b3ad6019" />
+
+
+Ara entrem al recurs compartit, amb l'usuari Keanu, com l'hem posat a la VPN no ens faria falta més (tot i això si tenim AD podem entrar amb això).
+
+<img width="414" height="215" alt="user3" src="https://github.com/user-attachments/assets/c2c6d266-8950-40c3-86ab-0575a49cd48e" />
+
+Podem crear carpetes i esborrar-les
+
+<img width="1177" height="633" alt="user4" src="https://github.com/user-attachments/assets/566622ef-504e-466a-afb8-d368fd34e150" />
+
+<img width="1318" height="693" alt="user5" src="https://github.com/user-attachments/assets/a72513f7-3269-4f53-912e-ff804a7a85a4" />
+
+<img width="1367" height="657" alt="user6" src="https://github.com/user-attachments/assets/6fef637e-5b74-4bde-81f7-1b250ce9693f" />
+
+Després si intentem entrar a un altra carpeta que no sigui la seva no tenim permís. Per tant funciona correctament.
+
+<img width="1228" height="638" alt="user7" src="https://github.com/user-attachments/assets/d52fda18-bf4b-465a-88d8-724584521236" />
+
+
+[← Torna a l'índex](index.html)
