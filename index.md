@@ -26,3 +26,5 @@ El contingut està sota llicència [Creative Commons BY-NC-SA 3.0ES](https://cre
 ### [Creació d'un servei amb NSSM](nssm.html)
 ### [Creació i modificació d'un kernel](kernel.html)
 ### [Creació d'una VPN en Windows](vpn.html)
+### [Creació entorn d'arrencada amb systemd](systemd-practica.html)
+### [Ubuntu a AD + Certificats Windows])(certificats.html)
